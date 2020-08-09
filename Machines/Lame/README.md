@@ -56,7 +56,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 67.57 seconds
 ```
 ## FTP
-I tried Anonymous Login but didn't find anything. vsFTPd 2.3.4 is an old version so I checked searchsploit and found an exploit for it
+I tried Anonymous Login but didn't find anything. vsFTPd 2.3.4 is an old version so I checked searchsploit and found one exploit for it
 ```
 root@kali:~/Desktop/HTB/Lame# searchsploit vsFTPd 2.3.4
 --------------------------------------------------------------------------------- ---------------------------------
