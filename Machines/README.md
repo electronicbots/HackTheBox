@@ -1,10 +1,10 @@
 # Machines
 You will find here most machines writeups and status for the newest ones
 
-# | Machine name | Status
+Machine name | Status
 ------------ | -------------
-1 | [Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | Done!
-2 | Beep | Under Work
-3 | Bank | Under work
-4 | Blocky | Uner Work
-5 | Mirai | Under Work
+[Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | Done!
+Beep | Under Work
+Bank | Under work
+Blocky | Uner Work
+Mirai | Under Work
