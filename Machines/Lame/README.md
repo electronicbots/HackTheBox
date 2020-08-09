@@ -173,7 +173,7 @@ root@lame:/home/makis# cat user.txt
 cat user.txt
 69454a937d...
 ```
-Afte I got to this point I was cuiros to know why the ftp exploit didn't work and I found that the Firewall is blocking most of it.
+After I got to this point I was cuiros to know why the ftp exploit didn't work and I found that the Firewall is blocking most of it.
 ```
 root@lame:/home/makis# netstat -tnlp
 netstat -tnlp
