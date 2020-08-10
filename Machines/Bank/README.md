@@ -82,6 +82,7 @@ And we found ```support.php```, If we try to browse to it we get error 302 which
 
 So now to avoid the redirection we need to change the intercepting setting in Burp and we do that like this:
 Go to ```Proxy``` and then ```options```, then enable these:
+
 ![image2](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Bank/images/2.png)
 
 So now if we intercept the request we get this:
