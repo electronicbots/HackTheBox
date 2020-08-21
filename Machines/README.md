@@ -10,3 +10,4 @@ Number| Machine name | Status
 5 | Mirai | Under Work
 6 | Shocker | Under Work
 7 | Bashed | Under Work
+8 | Traceback | Under Work
