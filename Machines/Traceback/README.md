@@ -35,7 +35,7 @@ By visiting the Web Server you will not find something useful, but if you looked
 ```
 So the author who made the Machine actually made a list of Web Shells that you can find here: https://github.com/Xh4H/Web-Shells
 
-So I coppied the list there and use it for fuzzing.
+Then I coppied the list there and use it for fuzzing.
 ```
 ┌──(kali㉿kali)-[~/Desktop/HTB/TracBack]
 └─$ cat Web-shell.txt 
