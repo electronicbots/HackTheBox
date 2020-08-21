@@ -10,4 +10,4 @@ Number| Machine name | Status
 5 | Mirai | Under Work
 6 | Shocker | Under Work
 7 | Bashed | Under Work
-8 | Traceback | Under Work
+8 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") | Done!
