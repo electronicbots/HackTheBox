@@ -6,8 +6,7 @@ Number| Machine name | Status
 1 | [Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | Done!
 2 | [Beep](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Beep "title") | Done!
 3 | [Bank](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bank "title") | Done!
-4 | Blocky | Uner Work
-5 | Mirai | Under Work
-6 | Shocker | Under Work
-7 | Bashed | Under Work
-8 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") | Done!
+4 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") | Done!
+5 | [Magic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Magic "title") | Done!
+6 | Blocky | Uner Work
+
