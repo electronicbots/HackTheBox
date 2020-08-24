@@ -9,5 +9,7 @@ Number| Machine name | Status
 4 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") | Done!
 5 | [Magic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Magic "title") | Done!
 6 | [Blocky](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Blocky "title") | Done!
-7 | Mirai | Under Work
-
+7 | Mirai | Soon!
+8 | Shocker | Soon!
+9 | Bashed  | Soon!
+10  | Nibbles | Soon!
