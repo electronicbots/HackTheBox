@@ -8,5 +8,6 @@ Number| Machine name | Status
 3 | [Bank](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bank "title") | Done!
 4 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") | Done!
 5 | [Magic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Magic "title") | Done!
-6 | Blocky | Uner Work
+6 | [Blocky](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Blocky "title") | Done!
+7 | Mirai | Under Work
 
