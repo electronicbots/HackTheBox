@@ -10,6 +10,6 @@ Number| Machine name | Status
 5 | [Magic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Magic "title") | Done!
 6 | [Blocky](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Blocky "title") | Done!
 7 | [Mirai](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Mirai "title") | Done!
-8 | Shocker | Soon!
+8 | [Shocker](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Shocker "title") | Done!
 9 | Bashed  | Soon!
 10 | Nibbles | Soon!
