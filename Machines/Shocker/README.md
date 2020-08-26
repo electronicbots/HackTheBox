@@ -1,5 +1,5 @@
 # Shocker-HTB
-Shocker is a Linux machine that is rated as easy, we can get a shell by using Metasploit or by using a exploit-db exploit
+Shocker is a Linux machine that is rated as easy, we can get a shell by using Metasploit or by using a exploit-db exploitation
 
 # Recon
 I started by runing nmap scan on the machine.
