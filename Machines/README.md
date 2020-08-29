@@ -13,7 +13,7 @@ Number| Machine name | Status
 8 | [Shocker](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Shocker "title") | Done!
 9 | [Bashed](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bashed "title")  | Done!
 10 | [Nibbles](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Nibbles "title") | Done!
-11 | Legacy | Soon!
+11 | [Legacy](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Legacy "title") | Done!
 12 | Devel | Soon!
 13 | Optimum | Soon!
 14 | Arctic | Soon!
