@@ -1,4 +1,4 @@
-# HackTheBox
+# HackTheBo
 
 Writeups for HackTheBox machines
 
