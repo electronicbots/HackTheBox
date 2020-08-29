@@ -12,4 +12,4 @@ Number| Machine name | Status
 7 | [Mirai](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Mirai "title") | Done!
 8 | [Shocker](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Shocker "title") | Done!
 9 | [Bashed](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bashed "title")  | Done!
-10 | Nibbles | Soon!
+10 | [Nibbles](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Nibbles "title") | Done!
