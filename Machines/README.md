@@ -1,5 +1,5 @@
 # Machines
-You will find here most machines writeups and status for the newest ones
+You will find here most machines writeups and status for the upcoming ones
 
 Number| Machine name | Status
 ------| ------------ | -------------
