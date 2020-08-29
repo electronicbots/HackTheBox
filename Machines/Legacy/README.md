@@ -163,7 +163,7 @@ C:\Documents and Settings\john\Desktop>type user.txt
 type user.txt
 e69af0e4...fda4ec7644f
 ```
-# Roo Flag
+# Root Flag
 ```
 C:\Documents and Settings\Administrator\Desktop>type root.txt
 type root.txt
