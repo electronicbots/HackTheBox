@@ -54,9 +54,9 @@ fonts                   [Status: 301, Size: 310, Words: 20, Lines: 10]
 ```
 So inside ```/dev``` there is two intresting files, by opening ```phpbash.php```, we get a shell
 
-![image1]()
+![image1](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Bashed/images/1.png)
 
-![image2]()
+![image2](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Bashed/images/2.png)
 
 # User Flag
 I prefer to get a shell rather than use the web shell, so here is how you can get a reverse shell using python:
