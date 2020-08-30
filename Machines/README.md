@@ -3,7 +3,7 @@ You will find here most machines writeups and status for the upcoming ones
 
 Number| Machine name | OS | Status
 ------| ------------ | ------------- |-------------
-1 | [Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | Linux | Done!
+1 | [Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | ![image](https://github.com/electronicbots/HackTheBox/blob/master/Machines/images/1.png = 250x250) | Done!
 2 | [Beep](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Beep "title") | Linux | Done!
 3 | [Bank](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bank "title") | Linux | Done!
 4 | [Traceback](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Traceback "title") |Linux | Done!
