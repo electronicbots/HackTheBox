@@ -15,6 +15,6 @@ Number| Machine name | OS | Status
 10 | [Nibbles](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Nibbles "title") | NX | Done!
 11 | [Legacy](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Legacy "title") | WIN | Done!
 12 | [Devel](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Devel "title") | WIN | Done!
-13 | Optimum | Windows | Soon!
-14 | Arctic | Windows | Soon!
-15 | Grandpa | Windows | Soon!
+13 | Optimum | WIN | Soon!
+14 | Arctic | WIN | Soon!
+15 | Grandpa | WIN | Soon!
