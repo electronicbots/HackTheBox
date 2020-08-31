@@ -21,7 +21,8 @@ Nmap done: 1 IP address (1 host up) scanned in 140.25 seconds
 So I searched for port 8500 and found that it is a ColdFusion webserver. Here is a usful refrence https://www.speedguide.net/port.php?port=8500
 
 If we visit it you will see these directories:
-![image1]()
+
+![image1](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/1.png)
 
 And then if we go here: http://10.10.10.11:8500/CFIDE/administrator/ we will see that the webserver version is ```Adobe Coldfusion 8```. let's try search for exploitaion.
 ```
@@ -108,7 +109,7 @@ if __name__ == '__main__':
 
 Here it is:
 
-![image2]()
+![image2](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/2.png)
 
 So if we use ```hash-identifier``` we can see that the hash is SHA-1:
 ```
@@ -133,7 +134,7 @@ Possible Hashs:
 ```
 We can use https://crackstation.net/ to get the password:
 
-![image3]()
+![image3](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/3.png)
 
 So the password is ```happyday```, we can use it now to login. Note: The user is ```admin```.
 
@@ -146,25 +147,25 @@ Payload size: 1497 bytes
 
 Let's scheduled our task by going here:
 
-![image4]()
+![image4](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/4.png)
 
 And then click on ```Schedul New Task```, you should get somthing like this:
 
-![image5]()
+![image5](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/5.png)
 
 So let's fill:
 
-![image6]()
+![image6](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/6.png)
 
 For the ```File``` section here is what I put: ```C:\ColdFusion8\wwwroot\CFIDE\Z0ldyck.jsp```. Also I started a webserver on that directory.
 
 So we can now run our task:
 
-![image7]()
+![image7](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/7.png)
 
 After you run your task you should see your reverse shell here ```http://10.10.10.11:8500/CFIDE/```
 
-![image8]()
+![image8](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Arctic/images/8.png)
 
 If you click on it you will get a shell:
 ```
