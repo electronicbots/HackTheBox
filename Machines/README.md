@@ -17,4 +17,4 @@ Number| Machine name | OS | Status
 12 | [Devel](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Devel "title") | WIN | Done!
 13 | [Optimum](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Optimum "title") | WIN | Done!
 14 | [Arctic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Arctic "title") | WIN | Done!
-15 | Grandpa | WIN | Soon!
+15 | [Grandpa](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Grandpa "title") | WIN | Done!
