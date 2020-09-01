@@ -1,7 +1,7 @@
 # Machines
 You will find here most machines writeups and status for the upcoming ones
 
-Number| Machine name | OS | Status
+Number| Box Name | OS | Status
 ------| ------------ | ------------- |-------------
 1 | [Lame](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Lame "title") | NX | Done!
 2 | [Beep](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Beep "title") | NX | Done!
