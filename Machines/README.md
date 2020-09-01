@@ -18,3 +18,8 @@ Number| Machine name | OS | Status
 13 | [Optimum](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Optimum "title") | WIN | Done!
 14 | [Arctic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Arctic "title") | WIN | Done!
 15 | [Grandpa](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Grandpa "title") | WIN | Done!
+16 | Granny | WIN | Soon!
+17 | Blue | WIN | Soon!
+18 | Sense | FreeBSD | Soon!
+19 | Valentine | NX | Soon!
+20 | Sunday | Solaris | Soon!
