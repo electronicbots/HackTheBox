@@ -22,4 +22,4 @@ Number| Box Name | OS | Status
 17 | [Blue](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Blue "title") | WIN | Done!
 18 | [Sense](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sense "title") | FreeBSD | Done!
 19 | [Valentine](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Valentine "title") | NX | Done!
-20 | Sunday | Solaris | Soon!
+20 | [Sunday](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sunday "title") | Solaris | Done!
