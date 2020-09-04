@@ -20,6 +20,6 @@ Number| Box Name | OS | Status
 15 | [Grandpa](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Grandpa "title") | WIN | Done!
 16 | [Granny](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Granny "title") | WIN | Done!
 17 | [Blue](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Blue "title") | WIN | Done!
-18 | Sense | FreeBSD | Soon!
+18 | [Sense](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sense "title") | FreeBSD | Done!
 19 | Valentine | NX | Soon!
 20 | Sunday | Solaris | Soon!
