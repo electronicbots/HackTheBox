@@ -23,3 +23,8 @@ Number| Box Name | OS | Status
 18 | [Sense](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sense "title") | FreeBSD | Done!
 19 | [Valentine](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Valentine "title") | NX | Done!
 20 | [Sunday](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sunday "title") | Solaris | Done!
+21 | Bounty | WIN | Soon!
+22 | Jerry  | WIN | Soon!
+23 | Active | WIN | Soon!
+24 | Access | WIN | Soon!
+25 | Frolic | WIN | Soon!
