@@ -27,4 +27,4 @@ Number| Box Name | OS | Status
 22 | Jerry  | WIN | Soon!
 23 | Active | WIN | Soon!
 24 | Access | WIN | Soon!
-25 | Frolic | WIN | Soon!
+25 | Frolic | NX | Soon!
