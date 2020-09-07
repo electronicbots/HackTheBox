@@ -1,5 +1,5 @@
 # Blue-HTB
-Blue is a Linux machine that is rated as easy. This Box show you the exploit of EternalBlue.
+Blue is a Windows machine that is rated as easy. This Box show you the exploit of EternalBlue.
 # Recon
 We first start by runing nmap scan on the machine.
 ```
