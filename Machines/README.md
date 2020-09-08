@@ -24,7 +24,7 @@ Number| Box Name | OS | Status
 19 | [Valentine](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Valentine "Valentine") | NX | Done!
 20 | [Sunday](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Sunday "Sunday") | Solaris | Done!
 21 | [Bounty](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Bounty "Bounty") | WIN | Done!
-22 | Jerry  | WIN | Soon!
+22 | [Jerry](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Jerry "Jerry")  | WIN | Done!
 23 | Active | WIN | Soon!
 24 | Access | WIN | Soon!
 25 | Frolic | NX | Soon!
