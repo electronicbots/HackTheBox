@@ -207,3 +207,4 @@ C:\Users\Administrator\Desktop>type root.txt
 type root.txt
 c837f7b69...079f9d4f5ea
 ```
+Thank you for reading, and you can find me here on twitter: https://twitter.com/electronicbots
