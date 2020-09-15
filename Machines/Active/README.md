@@ -1,5 +1,5 @@
 # Active-HTB
-Jerry is a Windows machine that is rated as easy. What you can learn from this box is how to gain privileges within an Active Directory environment.
+Active is a Windows machine that is rated as easy. What you can learn from this box is how to gain privileges within an Active Directory environment.
 
 # Recon
 We start with nmap scan on the box.
