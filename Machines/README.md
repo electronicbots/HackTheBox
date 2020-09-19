@@ -27,4 +27,4 @@ Number| Box Name | OS | Status
 22 | [Jerry](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Jerry "Jerry")  | WIN | Done!
 23 | [Active](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Active "Active") | WIN | Done!
 24 | [Access](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Access "Access") | WIN | Done!
-25 | Frolic | NX | Soon!
+25 | [Frolic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Frolic "Frolic") | NX | Done!
