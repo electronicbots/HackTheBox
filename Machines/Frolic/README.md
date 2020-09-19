@@ -1,6 +1,6 @@
 # Frolic
 
-Frolic is a Linux machine that is rated as easy. This box privilege escalation is so awesome.
+Frolic is a Linux machine that is rated as easy. This box is so awesome, I would recommended it to anyone.
 
 # Recon
 Start with nmap scan:
@@ -98,7 +98,7 @@ loop                    [Status: 301, Size: 194, Words: 7, Lines: 8]
 ```
 So we have an ```/admin``` login page, let's enumerate more:
 
-![image1]()
+![image1](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/1.png)
 
 ```
 ┌──(kali㉿kali)-[~/Desktop/HTB/Frolic]
@@ -185,15 +185,15 @@ credentials: **admin:superduperlooperpassword_lol**
 
 After you login you will get some weird data:
 
-![image2]()
+![image2](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/2.png)
 
 So we can decrypt this ```ook``` code here: https://www.splitbrain.org/_static/ook/
 
-![image3]()
+![image3](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/3.png)
 
 So we get a new dir: ```/asdiSIAJJ0QWE9JAS```, and we find a base64 text:
 
-![image4]()
+![image4](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/4.png)
 
 We can decode it from here: https://base64.guru/converter/decode/file . And it is a protected zip file so we need to find the password for it. I will be using ```fcrackzip```:
 ```
@@ -222,15 +222,15 @@ and more work to do XD
 ```
 We need to conver it to hex an easy methode to do everything is using ```CyberChef```: https://gchq.github.io/CyberChef/
 
-![image5]()
+![image5](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/5.png)
 
 Now convert it from ```Base64```:
 
-![image6]()
+![image6](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/6.png)
 
 Another ```brainfuck``` language, use the first website that we used earlier and use to decode it from brainfuck to text:
 
-![image7]()
+![image7](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/7.png)
 
 So we have now this password:
 ```
@@ -279,7 +279,7 @@ Name,Mobile,Email,Group code,Tags
 ```
 Go to **My Account** and select **Phonebook** then import the file:
 
-![image8]()
+![image8](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/8.png)
 
 So we need to capture the request with ```Burp``` and change the ```user-agent``` to the command that we wants to run:
 
@@ -312,11 +312,11 @@ Name,Mobile,Email,Group code,Tags
 
 ```
 
-![image9]()
+![image9](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/9.png)
 
 So if you forward the requests you will get the result:
 
-![image10]()
+![image10](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Frolic/images/10.png)
 
 So now to get a reverse shell :)
 
