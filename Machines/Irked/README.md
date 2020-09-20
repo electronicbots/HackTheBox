@@ -74,7 +74,7 @@ clnt_create: RPC: Program not registered
 
 So If we go to web page we see this message: ```IRC is almost working!```.
 
-![image1]()
+![image1](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Irked/images/1.png)
 
 We can find the version of IRCD using ```irssi```:
 ```
@@ -82,7 +82,7 @@ We can find the version of IRCD using ```irssi```:
 └─$ sudo irssi -c 10.10.10.117 --port 8067
 ```
 
-![image2]()
+![image2](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Irked/images/2.png)
 
 From the image above we can see that it is running ```Unreal 3.2.8.1```
 
@@ -105,7 +105,7 @@ Shellcodes: No Results
 
 So we can get a shell using **Metasploit**, but I got some comments to do things without Metasploit. Let's check the last exploit **13853.pl**:
 
-```
+```perl
 ┌──(kali㉿kali)-[~/Desktop/HTB/Irked]
 └─$ cat /usr/share/exploitdb/exploits/linux/remote/13853.pl                                                                                                                                                                            1 ⚙
 #!/usr/bin/perl
@@ -191,7 +191,7 @@ AB; ping -c 3 10.10.14.27
 
 As you can see from the image below we can see the ping request:
 
-![image3]()
+![image3](https://github.com/electronicbots/HackTheBox/blob/master/Machines/Irked/images/3.png)
 
 # User Flag
 
