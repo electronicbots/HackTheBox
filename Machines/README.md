@@ -29,7 +29,7 @@ Number| Box Name | OS | Status
 24 | [Access](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Access "Access") | WIN | Done!
 25 | [Frolic](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Frolic "Frolic") | NX | Done!
 26 | [Curling](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Curling "Curling") | NX | Done!
-27 | Irked | NX | Soon!
+27 | [Irked](https://github.com/electronicbots/HackTheBox/tree/master/Machines/Irked "Irked") | NX | Done!
 28 | Teacher | NX | Soon!
 29 | Help | NX | Soon!
 30 | FriendZone | NX | Soon!
