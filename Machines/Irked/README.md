@@ -278,7 +278,7 @@ Get the User Flag:
 
 ```
 djmardov@irked:~/Documents$ cat user.txt 
-4a66a78b12dc0e661a59d3f5c0267a8e
+4a66a78...f5c0267a8e
 ```
 
 # Root Flag
@@ -352,7 +352,7 @@ We have a root shell now, get the root flag:
 
 ```
 # cat root.txt
-8d8e9e8be64654b6dccc3bff4522daf3
+8d8e9e8b...3bff4522daf3
 ```
 
 # Advance
