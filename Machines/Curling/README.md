@@ -194,7 +194,7 @@ uid=1000(floris) gid=1004(floris) groups=1004(floris)
 We are in get the user flag:
 ```
 floris@curling:~$ cat user.txt 
-65dd1df0713b40d88ead98cf11b8530b
+65dd1df0...8cf11b8530b
 ```
 
 # Root Flag
@@ -242,7 +242,7 @@ Accept: */*
 Content-Length: 32
 Content-Type: application/x-www-form-urlencoded
 
-82c198ab6fc5365fdc6da2ee5c26064a
+82c198ab...a2ee5c26064a
 ```
 
 Thank you for reading, and you can find me here on twitter: https://twitter.com/electronicbots
