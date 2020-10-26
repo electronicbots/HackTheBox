@@ -441,4 +441,4 @@ uid=1001(ircd) gid=1001(ircd) groups=1001(ircd)
 
 Thank you for reading, and you can find me here on twitter: https://twitter.com/electronicbots
 
-If you need help with the code just PM me on twitter ;)
+If you need help with the code just ask me on twitter ;)
