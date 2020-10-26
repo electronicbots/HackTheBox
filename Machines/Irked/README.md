@@ -1,5 +1,5 @@
 # Irked
-Irked is a Linux machine that rated as easy. You will learn some Linux Enumeration and exploit modification.
+Irked is a Linux machine that rated as easy. You will learn some irc enumeration and exploit modification.
 
 # Recon
 We start with nmap scan:
